@@ -105,7 +105,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </head>
 <body>
 
-<h2>Popup Form</h2>
+<h2>Guest Test System</h2>
 <p>Click on seat button to open form.</p>
 <p>Click close on form to close form.</p>
 
@@ -144,8 +144,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <script>
 function openForm() {
-  if(document.getElementById("myForm").style.display = "none"){
-  document.getElementById("myForm").style.display = "block";
+  if(document.getElementById("myForm").style.display = "block"){
+    document.getElementById("myForm").style.display = "none";
+  }
+  else {
+    document.getElementById("myForm").style.display = "block";
   }
 }
 
