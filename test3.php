@@ -89,6 +89,7 @@
     </script>
     <button id="signin-button" onclick="handleSignInClick()">Sign in</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign out</button>
+    <p>bla3</p>
     <div style="margin-left:auto; margin-right:auto; width:960px;">
     <?php
     for($row = 0; $row < 8; $row++) {
